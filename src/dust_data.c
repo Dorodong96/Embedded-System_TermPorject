@@ -1,3 +1,4 @@
+// Check and Get Data of AirPollution from airkorea.com
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdio_ext.h>
@@ -35,12 +36,3 @@ int webSelecting() {
 		return d;
 	}
 }
-/*
-void main(void) {
-	int dust;
-	if(webcrawling()) 
-		dust=webSelecting();
-	printf("%d\n", dust);
-	system("rm index.html");
-}
-*/
