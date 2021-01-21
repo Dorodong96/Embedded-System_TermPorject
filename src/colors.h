@@ -1,3 +1,4 @@
+// Color Definitions
 #define RGB565_RED 		0xF800
 #define RGB565_GREEN	0x07E0
 #define RGB565_BLUE		0x001F
